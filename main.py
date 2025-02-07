@@ -12,7 +12,7 @@ class MyPlugin(BasePlugin):
 
     # 插件加载时触发
     def __init__(self, host: APIHost):
-        self.forward_message = forward_message(host="127.0.0.1", port=3000)
+        self.forward_message = forward_message(host="172.19.0.3", port=3000)
 
 
     # 异步初始化
